@@ -1,0 +1,103 @@
+# Project Variables and Custom Blocks
+
+This document lists variables defined in the project and the custom blocks implemented in the `renderer` sprite.
+
+## Stage Variables
+- CamSpeed
+- ModelTris
+- ModelVerts
+- RotSpeed
+- a
+- b
+- c
+- ch
+- cmd
+- current
+- cx
+- cy
+- cz
+- d
+- draggingVert
+- far
+- floor y
+- gridSize
+- i
+- idxtext
+- isDragging
+- j
+- k
+- line
+- max
+- maxLine
+- min
+- minLine
+- mode
+- mouseStartX
+- mouseStartY
+- moveDX
+- moveDY
+- moveDZ
+- my variable
+- near
+- objlines
+- p
+- pitch
+- px
+- px2
+- pxA
+- pxB
+- py
+- py2
+- pyA
+- pyB
+- roll
+- sb2b
+- screenCenterX
+- screenCenterY
+- selectedVert
+- sx
+- sxa
+- sxb
+- sy
+- sya
+- syb
+- sz
+- sz2
+- sz2a
+- sz2b
+- sza
+- szb
+- szb2
+- t
+- tokens
+- tri
+- vx
+- vxa
+- vxb
+- vy
+- vya
+- vyb
+- vz
+- vza
+- vzb
+- x
+- xa
+- xb
+- ya
+- yaw
+- yb
+- z
+- za
+- zb
+
+## Custom Blocks in `renderer`
+- Draw3dLine (advanced) %s %s %s %s %s %s
+- DrawFloorGrid
+- DrawModelEdges
+- DrawTriangle
+- ImportOBJ
+- MoveCamera
+- Render3D
+- SetCamera %s %s %s %s
+- TransformVertices
+- first slash %s
