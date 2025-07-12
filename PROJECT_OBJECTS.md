@@ -1,11 +1,9 @@
 
+# Project Variables and Custom Blocks
 
+This document lists variables defined in the project and the custom blocks implemented in the `renderer` sprite.
 
-+# Project Variables and Custom Blocks
-+
-+This document lists variables defined in the project and the custom blocks implemented in the `renderer` sprite.
-+
-+## Stage Variables
+## Stage Variables
 +- CamSpeed: controls how fast the camera moves when the user presses the movement keys
 +- ModelTris: stores how many triangles were imported from the OBJ model
 +- ModelVerts: stores the total number of vertices in the model
@@ -92,8 +90,8 @@
 +- z: height of the view or generic z value
 +- za: temporary z value a
 +- zb: temporary z value b
-+
-+## Stage Lists
+
+## Stage Lists
 +The stage defines several lists used by the renderer to keep model data and
 +intermediate results.
 +- VerticesX / VerticesY / VerticesZ: store X, Y and Z coordinates for each imported vertex
@@ -109,7 +107,7 @@
 +- tokens: text tokens parsed from OBJ strings
 +- OBJlist: individual lines loaded from the OBJ file
 +
-+## Custom Blocks in `renderer`
+## Custom Blocks in `renderer`
 +- Draw3dLine (advanced) %s %s %s %s %s %s: render an antialiased 3D line
 +- DrawFloorGrid: draw the floor grid
 +- DrawModelEdges: draw all edges of the model
@@ -121,5 +119,3 @@
 +- TransformVertices: transform model vertices for rendering
 +- first slash %s: get text before first slash
  
-EOF
-)
