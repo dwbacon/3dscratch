@@ -1,8 +1,10 @@
+
 # Project Variables and Custom Blocks
 
 This document lists variables defined in the project and the custom blocks implemented in the `renderer` sprite.
 
 ## Stage Variables
+
 - CamSpeed: controls how fast the camera moves when the user presses the movement keys
 - ModelTris: stores how many triangles were imported from the OBJ model
 - ModelVerts: stores the total number of vertices in the model
@@ -138,4 +140,3 @@ pretty-printed, these commands help you quickly list data relevant to the
 
 These snippets let you jump straight to the data you need without manually
 scanning the entire file. Use `grep -n <name> project.json` to locate a specific
-variable or procedure quickly.
