@@ -3,3 +3,4 @@ Updated AGENTS instructions to focus on the renderer sprite. Added PROJECT_OBJEC
 Documented purpose of all variables and custom blocks in PROJECT_OBJECTS.md.
 Expanded variable descriptions and added list explanations in PROJECT_OBJECTS.md.
 Enhanced AGENTS.md with search tips and guidance to keep complex blocks. Added a search section to PROJECT_OBJECTS.md for quick jq commands.
+Added camera roll controls to complete 6-DOF camera movement: Q key rolls camera left (counterclockwise), E key rolls camera right (clockwise). These controls modify the existing 'roll' variable using RotSpeed, matching the pattern of existing yaw/pitch controls.
